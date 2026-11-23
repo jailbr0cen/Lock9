@@ -1,7 +1,9 @@
-Package: local.slidels
-Name: SlideLS
+Package: local.lock9
+Name: Lock9
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Version: 0.1
+Version: 0.3
+Replaces: local.slidels
+Conflicts: local.slidels
 Architecture: iphoneos-arm
 Description: iOS 7-9 style slide to unlock for rootless iOS 15. Based on SixLS (GPLv3) and NineUnlock (MIT).
 Maintainer: Bal
