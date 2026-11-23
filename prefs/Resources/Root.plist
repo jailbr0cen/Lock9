@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key><string>Lock9</string>
+	<key>items</key>
+	<array>
+		<dict><key>cell</key><string>PSGroupCell</string><key>label</key><string>General</string></dict>
+		<dict><key>cell</key><string>PSSwitchCell</string><key>defaults</key><string>local.lock9</string><key>key</key><string>enabled</string><key>label</key><string>Enabled</string><key>default</key><true/><key>PostNotification</key><string>local.lock9/prefschanged</string></dict>
+		<dict><key>cell</key><string>PSGroupCell</string><key>label</key><string>Slide text</string><key>footerText</key><string>Text shown next to the chevron.</string></dict>
+		<dict><key>cell</key><string>PSEditTextCell</string><key>defaults</key><string>local.lock9</string><key>key</key><string>slideText</string><key>label</key><string>Text</string><key>default</key><string>slide to unlock</string><key>PostNotification</key><string>local.lock9/prefschanged</string><key>noAutoCorrect</key><true/></dict>
+		<dict><key>cell</key><string>PSGroupCell</string><key>label</key><string>Text color</string><key>footerText</key><string>Hex color of the shimmer, like #FFFFFF (white) or #FF3B30.</string></dict>
+		<dict><key>cell</key><string>PSEditTextCell</string><key>defaults</key><string>local.lock9</string><key>key</key><string>textColor</string><key>label</key><string>Color</string><key>default</key><string>#FFFFFF</string><key>PostNotification</key><string>local.lock9/prefschanged</string><key>noAutoCorrect</key><true/></dict>
+		<dict><key>cell</key><string>PSGroupCell</string><key>label</key><string>Text size</string></dict>
+		<dict><key>cell</key><string>PSSliderCell</string><key>defaults</key><string>local.lock9</string><key>key</key><string>textSize</string><key>label</key><string>Size</string><key>default</key><real>24</real><key>PostNotification</key><string>local.lock9/prefschanged</string><key>min</key><real>14</real><key>max</key><real>36</real><key>showValue</key><true/></dict>
+		<dict><key>cell</key><string>PSGroupCell</string><key>label</key><string>Camera</string></dict>
+		<dict><key>cell</key><string>PSSwitchCell</string><key>defaults</key><string>local.lock9</string><key>key</key><string>showCamera</string><key>label</key><string>Show camera icon</string><key>default</key><true/><key>PostNotification</key><string>local.lock9/prefschanged</string></dict>
+		<dict><key>cell</key><string>PSGroupCell</string><key>label</key><string>Sounds</string></dict>
+		<dict><key>cell</key><string>PSSwitchCell</string><key>defaults</key><string>local.lock9</string><key>key</key><string>lockSound</string><key>label</key><string>Lock sound</string><key>default</key><true/><key>PostNotification</key><string>local.lock9/prefschanged</string></dict>
+		<dict><key>cell</key><string>PSSwitchCell</string><key>defaults</key><string>local.lock9</string><key>key</key><string>unlockSound</string><key>label</key><string>Unlock sound</string><key>default</key><true/><key>PostNotification</key><string>local.lock9/prefschanged</string></dict>
+	</array>
+</dict>
+</plist>
