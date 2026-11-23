@@ -10,10 +10,7 @@ This tweak was made with components and code from NineUnlock by [minh-ton](https
 Their repos can be found here: [NineUnlock](https://github.com/minh-ton/NineUnlock) [SixLS](https://github.com/Skittyblock/SixLS)
 
 ## Installation
-Use [theos](https://github.com/theos/theos) to compile and install.
-or
-Download the latest .deb from the [Releases](https://github.com/jailbr0cen/Lock9/releases) page.
-
+Download the latest .deb from the [Releases](https://github.com/jailbr0cen/Lock9/releases) page, or use [theos](https://github.com/theos/theos) to compile and install.
 
 ## License
 This project is licensed under the GNU GPLv3.
