@@ -1,5 +1,5 @@
 # Lock9
-<img width="640" height="1136" alt="IMG_0009" src="https://github.com/user-attachments/assets/a07d0e2e-493c-42d7-a330-185c6ab51108" />
+<img width="320" height="568" alt="IMG_0009" src="https://github.com/user-attachments/assets/a07d0e2e-493c-42d7-a330-185c6ab51108" />
 
 The iOS 9 slide to unlock, brought to rootless jailbreaks on iOS 15.
 
